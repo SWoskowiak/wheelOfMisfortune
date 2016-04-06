@@ -1,0 +1,8 @@
+# Ignore all files starting with .
+.*
+# Don't commit node modules, thats what package.json/npm install is for
+node_modules
+coverage
+# Un-ignore .gitignore so we commit it initially if we havn't
+!/.gitignore
+!/.travis.yml
